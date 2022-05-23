@@ -130,6 +130,7 @@ while len(deck.cards) > 10:
         break
     print("let's start game")
     result = game()
+    time.sleep(2)
     if result == 1:
         win_lose[0] += 1
         print("you win !!")

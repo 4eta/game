@@ -1,0 +1,22 @@
+<DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>BJ</title>
+        </head>
+        <body>
+            <h1>black jack game ! </h1>
+            <h2>dealer</h2>
+            <ul>
+                {% for card in dealer_card %}
+                <li><img src="static/cards/{{card}}"></li>
+                {% endfor %}
+            </ul>
+            <h2>player</h2>
+            <ul>
+                {% for card in player_card %}
+                <li><img src="static/cards/{{card}}"></li>
+                {% endfor %}
+            </ul>
+        </body>
+    </html>
