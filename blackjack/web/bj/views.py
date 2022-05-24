@@ -1,4 +1,3 @@
-from tkinter import N
 from django.shortcuts import render
 from numpy import place
 from . import bj
