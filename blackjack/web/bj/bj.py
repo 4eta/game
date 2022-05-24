@@ -19,7 +19,7 @@ class Deck:
     def __init__(self):
         self.cards = []
         for i in range(1,14):
-            for suit in ["d", "h", "s", "c"]:
+            for suit in ["diamond", "heart", "spade", "club"]:
                 self.cards.append([i, suit])
         random.shuffle(self.cards)
 

@@ -1,0 +1,67 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*,*::before,*::after{box-sizing:border-box}*{margin:0}html,body{height:100%}body{line-height:1.5;-webkit-font-smoothing:antialiased}img,picture,video,canvas,svg{display:block;max-width:100%}input,button,textarea,select{font:inherit}p,h1,h2,h3,h4,h5,h6{overflow-wrap:break-word}#root,#__next{isolation:isolate}
+
+body{
+    font-family: Arial;
+    /*background-image: url("/static/cards/background.jpg");
+    */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: antiquewhite;
+}
+
+h1{
+    padding: 20px;
+    color:darkred;
+    font-size: 40px;
+}
+
+p,h1,h2{
+    text-align: center;
+}
+
+.game_board{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.card_img{
+    width: 100px;
+}
+
+.container{
+    background-color: burlywood;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.user_form{
+    display: flex;
+    justify-content: center;
+}
+
+.game_msg{
+    padding: 10px;
+    font-size: 20px;
+}
+
+input{
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: burlywood;
+
+}
